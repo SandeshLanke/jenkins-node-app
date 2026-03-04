@@ -18,7 +18,7 @@ pipeline{
         }
         stage ('build') {
             steps {
-                sh 'echo "Build stage completed..."'
+                sh 'npm run build'
             }
         }
         stage ('archive') {
